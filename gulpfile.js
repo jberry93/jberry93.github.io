@@ -18,3 +18,10 @@ gulp.task("browserSync", function() {
   gulp.watch("default.css", browserSync.reload);
   gulp.watch("js/*.js", browserSync.reload);
 });
+
+gulp.task("smashCSS", function() {
+  return gulp.src([
+    "bower_components/animate.css/animate.min.css",
+    "bower_components/bootstrap/dist/css/bootstrap.min.css"
+  ]).pipe(concat("all.css")).pipe(gulp.dest("server/public"));
+});
