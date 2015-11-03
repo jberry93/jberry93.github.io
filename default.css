@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  background: #292C2F;
+  font-family: helvetica, sans-serif;
+  color: whitesmoke
+}
+a {
+  color: grey;
+  text-decoration: none;
+  font-size: 20px;
+}
+div {
+  padding-top: 200px;
+}
