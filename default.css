@@ -1,14 +1,52 @@
 body {
   text-align: center;
   background: #292C2F;
-  font-family: helvetica, sans-serif;
+  font-family: "Lato", sans-serif;
   color: whitesmoke
 }
-a {
+nav.navbar {
+  background: transparent;
+  border-bottom: transparent;
+}
+/*a {
   color: grey;
   text-decoration: none;
   font-size: 20px;
 }
 div {
   padding-top: 200px;
+}*/
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  margin-top: 70px;
+}
+.section1 {
+  margin-top: 5%;
+}
+.navbar-nav > li > a{
+  font-size: 16px;
+}
+/* typed.js cursor blink (from mattboldt.com) */
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
