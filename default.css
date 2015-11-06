@@ -14,7 +14,16 @@ body.pushable > .pusher {
   height: 200px;
   width: 200px;
   border-radius: 100px;
-  margin-top: 70px;
+  margin-top: 60px;
+}
+.section1 {
+  padding-bottom: 5%;
+}
+.section2 {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background: white;
+  color: #292C2F;
 }
 a.toc.item {
   height: 30px;
@@ -26,6 +35,18 @@ img.hamburger {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+span.skill > img {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+span.skill > img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
 /* typed.js cursor blink (from mattboldt.com) */
 .typed-cursor{
     opacity: 1;
