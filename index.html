@@ -11,11 +11,21 @@
   <body>
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
-        <ul class="nav navbar-nav">
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#social">Social</a></li>
-        </ul>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#target" aria-expanded="false">
+            <span class="sr-only">Toggle Navi</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="target">
+          <ul class="nav navbar-nav">
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#social">Social</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="section1">
@@ -23,6 +33,23 @@
       <h1>Jeffrey Berry</h1>
       <br>
       <h1>I am a <span class="type"></span></h1>
+    </div>
+    <div class="section2">
+      <h3 class="animated pulse infinite" id="skills">Skills</h3>
+      <span class="skill" id="javascript"><img src="minImage/javascript.svg"></span>
+      <span class="skill" id="node"><img src="minImage/nodejs.svg"></span>
+      <span class="skill" id="express"><img src="minImage/express.svg"></span>
+      <span class="skill" id="mongo"><img src="minImage/mongodb.svg"></span>
+      <span class="skill" id="jquery"><img src="minImage/jquery.svg"></span>
+      <span class="skill" id="gulp"><img src="minImage/gulp.svg"></span>
+      <span class="skill" id="mocha"><img src="minImage/mocha.svg"></span>
+      <span class="skill" id="npm"><img src="minImage/npm.svg"></span>
+      <span class="skill" id="bower"><img src="minImage/bower.svg"></span>
+      <span class="skill" id="bootstrap"><img src="minImage/bootstrap.svg"></span>
+      <span class="skill" id="html"><img src="minImage/html.svg"></span>
+      <span class="skill" id="css"><img src="minImage/css.svg"></span>
+      <span class="skill" id="git"><img src="minImage/git.svg"></span>
+      <span class="skill" id="github"><img src="minImage/github.svg"></span>
     </div>
     <script src="vendor.min.js"></script>
     <script src="my.min.js"></script>
