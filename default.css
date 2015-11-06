@@ -1,32 +1,30 @@
 body {
   text-align: center;
-  background: #292C2F;
   font-family: "Lato", sans-serif;
   color: whitesmoke
 }
-nav.navbar {
+body.pushable > .pusher {
+  background: #292C2F;
+}
+.ui.inverted.segment {
   background: transparent;
-  border-bottom: transparent;
 }
-/*a {
-  color: grey;
-  text-decoration: none;
-  font-size: 20px;
-}
-div {
-  padding-top: 200px;
-}*/
+
 .headshot {
   height: 200px;
   width: 200px;
   border-radius: 100px;
   margin-top: 70px;
 }
-.section1 {
-  margin-top: 5%;
+a.toc.item {
+  height: 30px;
+  width: 30px;
 }
-.navbar-nav > li > a{
-  font-size: 16px;
+img.hamburger {
+  height: 35px;
+  width: 35px;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
 }
 /* typed.js cursor blink (from mattboldt.com) */
 .typed-cursor{
