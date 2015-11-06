@@ -23,7 +23,6 @@ gulp.task("browserSync", function() {
 gulp.task("smashCSS", function() {
   return gulp.src([
     "bower_components/animate.css/animate.min.css",
-    "bower_components/Materialize/dist/css/materialize.min.css",
     "bower_components/bootstrap/dist/css/bootstrap.min.css"
   ]).pipe(concat("all.min.css")).pipe(minCSS()).pipe(gulp.dest("./"));
 });
@@ -39,7 +38,6 @@ gulp.task("smashVendorJS", function() {
   return gulp.src([
     "bower_components/jquery/dist/jquery.min.js",
     "bower_components/typed.js/dist/typed.min.js",
-    "bower_components/Materialize/dist/js/materialize.min.js",
     "bower_components/bootstrap/dist/js/bootstrap.min.js"
   ]).pipe(concat("vendor.min.js")).pipe(uglify()).pipe(gulp.dest("./"));
 });
