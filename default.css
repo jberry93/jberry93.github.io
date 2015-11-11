@@ -6,24 +6,10 @@ body {
 body.pushable > .pusher {
   background: #292C2F;
 }
+
+/* Navi */
 .ui.inverted.segment {
   background: transparent;
-}
-
-.headshot {
-  height: 200px;
-  width: 200px;
-  border-radius: 100px;
-  margin-top: 60px;
-}
-.section1 {
-  padding-bottom: 5%;
-}
-.section2 {
-  padding-top: 5%;
-  padding-bottom: 10%;
-  background: white;
-  color: #292C2F;
 }
 a.toc.item {
   height: 30px;
@@ -35,6 +21,15 @@ img.hamburger {
   -webkit-filter: invert(100%);
   filter: invert(100%);
 }
+
+/* Section 1 */
+.headshot {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+}
+
+/* Section 2 */
 span.skill > img {
   height: 150px;
   width: 150px;
@@ -47,6 +42,35 @@ span.skill > img:hover {
   filter: grayscale(0%);
 }
 
+/* Section 3 */
+img#diploma,
+img#developer {
+  height: 75px;
+  width: 75px;
+}
+div.header > h3,
+div.meta > span > h5 {
+  color: whitesmoke;
+}
+div.column > * {
+  text-align: center;
+}
+
+/* Section separation */
+.section1,
+.section3,
+.section5 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.section2,
+.section4,
+.section6 {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background: white;
+  color: #292C2F;
+}
 /* typed.js cursor blink (from mattboldt.com) */
 .typed-cursor{
     opacity: 1;
