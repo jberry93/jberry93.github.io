@@ -3,9 +3,27 @@ body {
 }
 h1,
 img,
+nav,
+footer,
 div.skills { text-align: center; }
+img.linkedin {
+  height: 100px;
+  width: 200px;
+}
 img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
   padding: 20px;
   height: 150px;
   width: 150px;
+}
+img:hover {
+  -webkit-filter: grayscale(0);
+  filter: grayscale(0);
+}
+a.button {
+  color: whitesmoke;
+  background: grey;
+  border: transparent;
+  border-radius: 70px;
 }
