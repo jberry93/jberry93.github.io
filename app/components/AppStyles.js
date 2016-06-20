@@ -9,6 +9,7 @@ module.exports = {
     margin: '0 auto'
   },
   iconContainer: {
-    textAlign: 'center'
+    textAlign: 'center',
+    margin: '1rem'
   }
 }

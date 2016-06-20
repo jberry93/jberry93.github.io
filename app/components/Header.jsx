@@ -10,16 +10,18 @@ export default class Header extends React.Component{
   render(){
     return(
       <div>
-        <h1 style={AppStyles.headerText}>I like tabs :)</h1>
+        <h1 style={AppStyles.headerText}>Sup :)</h1>
         <Avatar style={AppStyles.avatar} src="../../images/myPic.jpeg" size={150} />
         <div style={AppStyles.iconContainer}>
           <FlatButton
             linkButton={true}
+            label="Github"
             href="https://github.com/jberry93"
             icon={<FontIcon className="fa fa-github-square" />}
           />
           <FlatButton
             linkButton={true}
+            label="LinkedIn"
             href="https://www.linkedin.com/in/jeffrey-berry-82154a3a"
             icon={<FontIcon className="fa fa-linkedin-square" />}
             />
