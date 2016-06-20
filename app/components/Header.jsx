@@ -25,6 +25,12 @@ export default class Header extends React.Component{
             href="https://www.linkedin.com/in/jeffrey-berry-82154a3a"
             icon={<FontIcon className="fa fa-linkedin-square" />}
             />
+          <FlatButton
+            linkButton={true}
+            label="Blog"
+            href="https://jberry93.github.io/blog"
+            icon={<FontIcon className="fa fa-pencil-square-o" />}
+          />
         </div>
       </div>
     );
