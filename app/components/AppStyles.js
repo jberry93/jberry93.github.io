@@ -10,6 +10,10 @@ module.exports = {
   },
   iconContainer: {
     textAlign: 'center',
-    margin: '1rem'
+    padding: '2rem'
+  },
+  bio: {
+    textAlign: 'center',
+    fontWeight: 'bold'
   }
 }
