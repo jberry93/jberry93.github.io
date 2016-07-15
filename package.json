@@ -24,7 +24,6 @@
     "babel-preset-react": "^6.5.0",
     "font-awesome": "^4.6.3",
     "jsx-loader": "^0.13.2",
-    "material-ui": "^0.15.0",
     "milligram": "^1.1.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
