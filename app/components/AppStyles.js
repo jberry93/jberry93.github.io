@@ -12,8 +12,25 @@ module.exports = {
     textAlign: 'center',
     padding: '2rem'
   },
-  bio: {
+  sectionTitle: {
     textAlign: 'center',
-    fontWeight: 'bold'
+    fontWeight: 'bold',
+    margin: '0'
+  },
+  sectionText: {
+    fontSize: '2rem',
+    padding: '0',
+    margin: '0'
+  },
+  sectionContainer: {
+    textAlign: 'center',
+    paddingBottom: '4rem'
+  },
+  skills: {
+    textAlign: 'center',
+    padding: '2rem'
+  },
+  hide: {
+    display: 'none'
   }
 }
