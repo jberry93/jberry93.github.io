@@ -1,6 +1,1 @@
-dev
-node_modules/.bin
-node_modules/live-server
-node_modules/gulp
-node_modules/gulp-cssnano
-node_modules/gulp-htmlmin
+node_modules
