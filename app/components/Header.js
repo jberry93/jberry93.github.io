@@ -1,9 +1,6 @@
 'use strict';
 
 import React      from 'react';
-import Avatar     from 'material-ui/Avatar';
-import FlatButton from 'material-ui/FlatButton';
-import FontIcon   from 'material-ui/FontIcon';
 import AppStyles  from './AppStyles';
 import IconButton from './IconButton';
 
