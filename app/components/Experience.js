@@ -9,6 +9,11 @@ const Experience = function(){
       <h3 style={AppStyles.headerText}>experience</h3>
       <div style={AppStyles.sectionContainer} className="row">
         <div className="column">
+          <h5 style={AppStyles.sectionTitle}>Ethika</h5>
+          <p style={AppStyles.sectionText}>August 2016 ~ Present</p>
+          <p style={AppStyles.sectionText}>Web Developer</p>
+        </div>
+        <div className="column">
           <h5 style={AppStyles.sectionTitle}>Gaikai</h5>
           <p style={AppStyles.sectionText}>Jan 2016 ~ July 2016</p>
           <p style={AppStyles.sectionText}>Web Developer Intern</p>

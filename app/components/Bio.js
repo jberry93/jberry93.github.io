@@ -18,7 +18,7 @@ const Bio = function(){
         </div>
         <div className="column">
           <h5 style={AppStyles.sectionTitle}>Location</h5>
-          <p style={AppStyles.sectionText}>Irvine, CA</p>
+          <p style={AppStyles.sectionText}>Torrance, CA</p>
         </div>
       </div>
     </div>
