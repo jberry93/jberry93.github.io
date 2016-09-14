@@ -21193,7 +21193,7 @@
 	        _react2.default.createElement(
 	          'p',
 	          { style: _AppStyles2.default.sectionText },
-	          'Irvine, CA'
+	          'Torrance, CA'
 	        )
 	      )
 	    )
@@ -21339,6 +21339,25 @@
 	    _react2.default.createElement(
 	      'div',
 	      { style: _AppStyles2.default.sectionContainer, className: 'row' },
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'column' },
+	        _react2.default.createElement(
+	          'h5',
+	          { style: _AppStyles2.default.sectionTitle },
+	          'Ethika'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          { style: _AppStyles2.default.sectionText },
+	          'August 2016 ~ Present'
+	        ),
+	        _react2.default.createElement(
+	          'p',
+	          { style: _AppStyles2.default.sectionText },
+	          'Web Developer'
+	        )
+	      ),
 	      _react2.default.createElement(
 	        'div',
 	        { className: 'column' },
