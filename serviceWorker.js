@@ -13,7 +13,7 @@
       caches.open(CACHENAME).then(function(cache) {
         console.info('Opened Cache :P');
         return cache.addAll(things2Cache);
-      });
+      })
     );
   });
 
@@ -25,7 +25,7 @@
           return response;
         }
         return fetch(event.request);
-      });
+      })
     );
   });
 
