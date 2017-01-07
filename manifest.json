@@ -1,0 +1,31 @@
+{
+  "short_name": "jberry93",
+  "name": "Jeffrey Berry",
+  "start_url": "index.html?launcher=true",
+  "background_color": "#efefef",
+  "theme_color": "#efefef",
+  "display": "standalone",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "./images/myPic128.jpg",
+      "type": "image/jpg",
+      "sizes": "128x128"
+    },
+    {
+      "src": "./images/myPic152.jpg",
+      "type": "image/jpg",
+      "sizes": "152x152"
+    },
+    {
+      "src": "./images/myPic144.jpg",
+      "type": "image/jpg",
+      "sizes": "144x144"
+    },
+    {
+      "src": "./images/myPic192.jpg",
+      "type": "image/jpg",
+      "sizes": "192x192"
+    }
+  ]
+}
