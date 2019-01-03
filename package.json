@@ -1,18 +1,36 @@
 {
-  "name": "jberry93.github.io",
-  "version": "1.0.0",
-  "main": "app.js",
-  "repository": {
-    "url": "https://github.com/jberry93/jberry93.github.io",
-    "type": "git"
-  },
-  "author": "Jeffrey Berry <jeffreyberry93@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-htmlmin": "^3.0.0",
-    "gulp-sass": "^2.3.2",
-    "live-server": "^1.1.0"
-  }
+    "name": "jberry93.github.io",
+    "version": "1.0.1",
+    "description": "A resume-ish page",
+    "main": "app.js",
+    "scripts": {
+        "dev": "next -p 4836",
+        "build": "next build",
+        "start": "next start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jberry93/jberry93.github.io.git"
+    },
+    "keywords": [],
+    "author": "Jeffrey Berry <jeffreyberry93@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jberry93/jberry93.github.io/issues"
+    },
+    "homepage": "https://github.com/jberry93/jberry93.github.io#readme",
+    "dependencies": {
+        "next": "^7.0.2",
+        "react": "^16.7.0",
+        "react-dom": "^16.7.0"
+    },
+    "devDependencies": {
+        "@types/next": "^7.0.6",
+        "@types/react": "^16.7.18",
+        "@types/react-dom": "^16.0.11",
+        "@zeit/next-sass": "^1.0.1",
+        "@zeit/next-typescript": "^1.1.1",
+        "node-sass": "^4.11.0",
+        "typescript": "^3.2.2"
+    }
 }
