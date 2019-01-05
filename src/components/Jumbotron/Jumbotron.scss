@@ -1,12 +1,13 @@
 .jumbotron {
-    height: 100vh;
-    width: 100%;
-
     .centerize {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+
+        .jumbotron-title {
+            color: #ffffff;
+        }
 
         .social-media {
             display: flex;
@@ -14,17 +15,21 @@
 
             .btn {
                 text-decoration: none;
-                color: #000000;
-                font-weight: bold;
-                border: 2px solid #0d47a1;
-                border-radius: 12px;
-                padding: 2px 8px;
-                margin: 0 5px;
-                transition: 0.5s;
+                color: #ffffff;
+                font-size: 32px;
+                
+                .fa-linkedin,
+                .fa-github-square {
+                    transition: 0.5s;
+                }
 
                 &:hover {
-                    color: #ffffff;
-                    background-color: #0d47a1;
+                    .fa-linkedin {
+                        color: #0077b5;
+                    }
+                    .fa-github-square {
+                        color: #4078c0;
+                    }
                 }
             }
         }
