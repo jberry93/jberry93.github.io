@@ -6,6 +6,8 @@
     "scripts": {
         "dev": "next -p 4836",
         "build": "next build",
+        "export": "next export",
+        "generate": "next build && next export",
         "start": "next start"
     },
     "repository": {
