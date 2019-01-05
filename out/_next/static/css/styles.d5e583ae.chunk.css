@@ -1,0 +1,22 @@
+.jumbotron .centerize {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .jumbotron .centerize .jumbotron-title {
+    color: #ffffff; }
+  .jumbotron .centerize .social-media {
+    display: flex;
+    justify-content: space-evenly; }
+    .jumbotron .centerize .social-media .btn {
+      text-decoration: none;
+      color: #ffffff;
+      font-size: 32px; }
+      .jumbotron .centerize .social-media .btn .fa-linkedin,
+      .jumbotron .centerize .social-media .btn .fa-github-square {
+        transition: 0.5s; }
+      .jumbotron .centerize .social-media .btn:hover .fa-linkedin {
+        color: #0077b5; }
+      .jumbotron .centerize .social-media .btn:hover .fa-github-square {
+        color: #4078c0; }
+
