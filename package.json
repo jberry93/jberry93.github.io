@@ -6,6 +6,13 @@
     "url": "https://github.com/jberry93/jberry93.github.io",
     "type": "git"
   },
+  "scripts": {
+    "dev": "gulp",
+    "list-tasks": "gulp --tasks",
+    "compile-sass": "gulp compileSass",
+    "minify-css": "gulp minifyCSS",
+    "minify-html": "gulp minifyHTML"
+  },
   "author": "Jeffrey Berry <jeffreyberry93@gmail.com>",
   "license": "MIT",
   "devDependencies": {
