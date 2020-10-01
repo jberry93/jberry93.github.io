@@ -1,32 +1,41 @@
 'use strict';
 
-const gulp = require('gulp');
+const { series, parallel, src, dest, watch } = require('gulp');
 const htmlmin = require('gulp-htmlmin');
 const cssmin = require('gulp-cssmin');
 const sass = require('gulp-sass');
 
-gulp.task('compileSass', function() {
-  gulp.src('./app/style.scss').pipe(sass().on('error', sass.logError)).pipe(gulp.dest('./'));
-});
+function compileSass() {
+  return src('./app/style.scss')
+    .pipe(sass().on('error', sass.logError))
+    .pipe(dest('./'));
+}
 
-gulp.task('minifyHTML', function() {
-  gulp.src('./app/index.html').pipe(htmlmin({collapseWhitespace: true})).pipe(gulp.dest('./'));
-});
+function minifyHTML() {
+  return src('./app/index.html')
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(dest('./'));
+}
 
-gulp.task('minifyCSS', function() {
-  gulp.src('./style.css').pipe(cssmin()).pipe(gulp.dest('./'));
-});
+function minifyCSS() {
+  return src('./style.css')
+    .pipe(cssmin())
+    .pipe(dest('./'));
+}
 
-gulp.task('watchHTML', function() {
-  gulp.watch('./app/index.html', ['minifyHTML']);
-});
+function watchHTML() {
+  return watch('./app/index.html', minifyHTML);
+}
 
-gulp.task('watchCSS', function() {
-  gulp.watch('./style.css', ['minifyCSS']);
-});
+function watchCSS() {
+  return watch('./style.css', minifyCSS);
+}
 
-gulp.task('watchSASS', function() {
-  gulp.watch('./app/style.scss', ['compileSass']);
-});
+function watchSASS() {
+  return watch('./app/style.scss', compileSass);
+}
 
-gulp.task('default', ['watchHTML', 'watchCSS', 'watchSASS']);
+exports.compileSass = compileSass;
+exports.minifyCSS = minifyCSS;
+exports.minifyHTML = minifyHTML;
+exports.default = series(watchHTML, parallel(watchCSS, watchSASS));
