@@ -11,7 +11,9 @@
     "list-tasks": "gulp --tasks",
     "compile-sass": "gulp compileSass",
     "minify-css": "gulp minifyCSS",
-    "minify-html": "gulp minifyHTML"
+    "minify-html": "gulp minifyHTML",
+    "css": "npm run compile-sass && npm run minify-css",
+    "deploy": "npm run minify-html && npm run css"
   },
   "author": "Jeffrey Berry <jeffreyberry93@gmail.com>",
   "license": "MIT",
